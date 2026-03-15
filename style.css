@@ -337,7 +337,7 @@ background-position:0%;
 }
 
 
-/* MOBILE NAVBAR */
+/* MOBILE NAVBAR FIX */
 
 .menu-toggle{
 display:none;
@@ -345,9 +345,18 @@ font-size:28px;
 cursor:pointer;
 }
 
-/* MOBILE STYLES */
-
 @media (max-width:768px){
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.nav-logo{
+font-size:18px;
+white-space:nowrap;
+}
 
 .menu-toggle{
 display:block;

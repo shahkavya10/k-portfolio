@@ -339,11 +339,15 @@ background-position:0%;
 
 /* MOBILE NAVBAR */
 
+/* MOBILE NAVBAR */
+
 .menu-toggle{
 display:none;
-font-size:26px;
+font-size:28px;
 cursor:pointer;
 }
+
+/* MOBILE STYLES */
 
 @media (max-width:768px){
 
@@ -356,18 +360,18 @@ position:absolute;
 top:60px;
 left:0;
 width:100%;
-background:rgba(0,0,0,0.9);
+background:rgba(0,0,0,0.95);
 flex-direction:column;
 align-items:center;
-gap:20px;
-padding:20px 0;
-display:none;
+gap:25px;
+padding:25px 0;
+
+transform:translateY(-120%);
+transition:transform 0.4s ease;
 }
 
 .nav-links.active{
-display:flex;
+transform:translateY(0);
 }
-
-}  
 
 }

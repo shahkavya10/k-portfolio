@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function(){
+
 /* TYPING ANIMATION */
 
 const textArray = [
@@ -121,5 +123,7 @@ onhover: { enable: true, mode: "repulse" }
 }
 
 }
+
+});
 
 });

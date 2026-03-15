@@ -339,8 +339,6 @@ background-position:0%;
 
 /* MOBILE NAVBAR */
 
-/* MOBILE NAVBAR */
-
 .menu-toggle{
 display:none;
 font-size:28px;
@@ -374,4 +372,8 @@ transition:transform 0.4s ease;
 transform:translateY(0);
 }
 
+}
+
+.nav-links a{
+font-size:18px;
 }

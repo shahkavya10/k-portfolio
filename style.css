@@ -356,3 +356,17 @@ transform:translateY(0);
 }
 
 }
+
+.case-tech{
+margin-top:20px;
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.case-tech span{
+background:rgba(255,255,255,0.1);
+padding:8px 14px;
+border-radius:17px;
+font-size:15px;
+}

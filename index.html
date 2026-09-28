@@ -12,13 +12,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="favicon.png">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2B8T9P5WT0"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-2B8T9P5WT0');
-</script>  
+<!-- Google Analytics loads only after explicit visitor consent. -->
 
 </head>
 
@@ -253,9 +247,42 @@ engineers, and continue to strengthen my technical skills.
 
 
 
+<section id="privacy" class="section privacy-notice reveal">
+
+<h2>Privacy &amp; Analytics</h2>
+
+<p>
+This portfolio does not load Google Analytics unless you choose “Allow analytics.” If enabled, Google Analytics may collect basic visit, browser/device, and approximate location information to help improve the site.
+</p>
+
+<p>
+I do not send names, email addresses, phone numbers, or form contents to Analytics. You can change your choice at any time using “Manage analytics choices.” <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>
+</p>
+
+</section>
+
+<div class="analytics-consent" id="analytics-consent" role="dialog" aria-labelledby="analytics-consent-title" aria-describedby="analytics-consent-text" hidden>
+
+<div class="analytics-consent-content">
+
+<h2 id="analytics-consent-title">Optional analytics</h2>
+
+<p id="analytics-consent-text">
+This site uses Google Analytics only if you choose to allow it. Analytics helps me understand visits and improve the portfolio. It may collect basic usage, browser/device, and approximate location information.
+</p>
+
+<div class="analytics-consent-actions">
+<button type="button" id="analytics-accept">Allow analytics</button>
+<button type="button" id="analytics-decline">Not now</button>
+</div>
+
+</div>
+
+</div>
 <footer>
 
 <p>© 2026 Kavya</p>
+<p><button type="button" id="manage-analytics">Manage analytics choices</button></p>
 
 </footer>
   
